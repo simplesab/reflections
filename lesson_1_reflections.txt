@@ -1,0 +1,14 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+  By viewing the diff between two versions of a file I could see the differences between the two files more clearly and could find the typo faster.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+  If, for example, for some reason the new version of the file does not work as intended when compiled, then a history of all the changes can help us to revert to an older version and restart from there. Or by using diff we can find the bugs lurking there.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+  When you manually commit you have full control over what changes you are saving and you can make them more meaningful. The idea is to commit once per logical change.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+  In Git, as opposed to Google Docs, the assumption is that a project will require more than one file and that is why they are grouped in a repository. In Docs each file is treated separately because there is no connection between them. Well maybe in a spreadsheet file there could be a connection but we're talking about Docs here, not Sheets.
+How can you use the commands git log and git diff to view the history of files?
+  I use git log to see the ids of each commit and I use git diff followed by two ids to open the files and see the specific differences between them. I can also use git log --stat to see the number of changes between each consecutive versions in the history.
+How might using version control make you more confident to make changes that could break something?
+  Knowing that you could revert at any time to an older version which works and compare the changes made helps you pin down a problem very fast and allows time for more experimentation.
+Now that you have your workspace set up, what do you want to try using Git for?
+  Now I'll use Git to finish this course and then start on the Android course.
