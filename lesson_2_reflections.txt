@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need to do it?
   The .git metadata is created to store the history of this repository. We need to initialize the repository because otherwise it would be just a normal directory.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
   The staging area is the place where we keep track of all the files we want to commit. The working directory can have files which we do not want to commit, while the repository has all the versions of the files which we have previously committed. The staging area helps us make the necessary preparations to make a commit.
+How can you use the staging area to make sure you have one commit per logical change?
+  The staging area actually helps to make one commit per logical change because not all modified files must be committed at the same time. Although, if you change 2 different things in the same file you will commit both at the same time...
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  I can use branches when I test out experimental features, like different play modes or just tweak some values to see what works best, and also when I want to make a different language version of the app, before I build in a language switch.
+How do the diagrams help you visualize the branch structure?
+  Diagrams keep the visible branch structure in check so that you know which commit is the parent of other subsequent commits, and also see how commits are reachable from another position.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  Automatic merging is faster and manual merge helps when there are conflicts which must be resolved in order to finish the merge.
