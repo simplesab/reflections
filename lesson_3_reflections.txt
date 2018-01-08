@@ -1,2 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
   I would use a remote repository when I want to share the repository between computers, so the usesrs on all of them can always work on the newest version. I can use that for me on more computers or for sharing with others.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  If you store the last known state of the remote locally you can check against the new status of the remote and see if a pull requires a merge or not.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  Without Git or GitHub I would have to send the whole project from one computer to the others si that everybody was up to date. It would be easier 'cuz it would just be copy-paste but it would take longer. And I would not know what was modified and there would be no histry apart from what is created locally.
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  I'd make changes in a separate branch when I wouldn't want to push everything to master before others have had the opportunity to check my changes.
